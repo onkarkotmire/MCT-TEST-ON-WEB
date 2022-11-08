@@ -1,0 +1,723 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* STYLING FOR PAGE-1 */
+.page1{
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+gap: 3%;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navchild-1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navchild-2{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navboxes{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #454545;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 44px;
+    font-size: 26px;
+}
+#home{
+    color: #FED233;
+}
+.heading-content{
+    height: 22%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfect-heading{
+    height: 100%;
+    width: 65%;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    line-height: 65px;
+    font-size: 55px;
+    color: #454545;
+    display: flex;
+    justify-content: center;
+}
+.diet-images{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#trainer-color{
+    color: #FED233;
+}
+.diet-box-1{
+    width: 30%;
+    height: 100%;
+}
+.diet-box-2{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diet-box-3{
+    width: 30%;
+    height: 100%;
+}
+.diet-box-1-1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.diet-box-1-2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diet-box-3-1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.diet-box-3-2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#arrowimg{
+    height: 100%;
+    width: 20%;
+}
+#woman-exercise-img{
+    width: 85%;
+    height: 95%;
+}
+#woman-exercise-img1{
+    width: 65%;
+    height: 75%;
+}
+
+/* STYLING FOR PAGE-2 */
+.page2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.page2-secA{
+    width: 78%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.page2-secB{
+    width: 20%;
+    height: 80%;
+    background-color: #FED233;
+    z-index: -1;
+}
+.text-heading-box{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    line-height: 60px;
+    font-size: 50px;
+}
+#Evolve-color{
+    color: #FED233;
+}
+.text-sub-heading-box{
+    width: 100%;
+    height: 20%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 47px;
+    color:  #5A5A5A;
+}    
+.text-body-box{
+    width: 100%;
+    height: 56%;
+    display: flex;
+}
+.text-body-box1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-body-box2{
+    width: 50%;
+    height: 100%;
+}
+.text-lines{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    color: #5A5A5A;
+}
+.contact-us-btn{
+    width: 25%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454545;
+    color: white;
+    font-size: 17px;
+}
+#lifestyle-woman-img{
+    width: 130%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* STYLING FOR PAGE-3 */
+.page3{
+    width: 100vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.health-advice-heading{
+    height: 17%;
+    width: 70%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #454545;
+    margin-left: 2%;
+}
+.health-advice-subheading{
+    height: 25%;
+    width: 80%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #5A5A5A;
+    display: flex;
+    margin-left: 2%;
+}
+.health-advice-body-content{
+    height: 58%;
+    width: 100%;
+    display: flex;
+}
+#health-advice-color{
+    color: #FED233;
+}
+.health-advice-woman-img{
+    width: 45%;
+    height: 100%;
+    background-color: #FED233;
+}
+#lifestyle-woman-img-2{
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.health-advice-textcontent{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.health-advice-textcontent-1{
+    width: 65%;
+    height: 100%;
+    margin-top: -5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #5A5A5A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-btn{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454545;
+    color: white;
+    font-size: 17px;
+    margin-left: -10%;
+}
+
+/* STYLING FOR PAGE-4 */
+.page4{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.page4-secA{
+    width: 48%;
+    height: 100%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.page4-secB{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.choose-us-img{
+    width: 45%;
+    height: 80%;
+    background-color: #FED233;
+}
+#choose-us-img{
+    width: 200%;
+    height: 120%;
+    margin-left: -110%;
+    margin-top: 20%;
+}
+.page4-secA-children1{
+    width: 100%;
+    height: 10%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 60px;
+    color: #454545;
+}
+.page4-secA-children2{
+    width: 100%;
+    height: 20%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    color: #5A5A5A;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+}
+.page4-secA-children3{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    gap: 2%;
+}
+.page4-secA-children4{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    gap: 2%;
+}
+.page4-secA-children5{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    gap: 2%;
+}
+.icon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #FED233;
+}
+.icon-content{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.experience-heading{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    color: #5A5A5A;
+}
+.experience-text{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #5A5A5A;
+}
+
+/* STYLING OF PAGE-5  */
+
+.page5{
+    width: 100vw;
+    height: 100vh;
+}
+.page5-A{
+    width: 50%;
+    height: 10%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #454545;
+    margin-left: 2%;
+}
+.page5-B{
+    height: 23%;
+    width: 70%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #5A5A5A;
+    display: flex;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+
+}
+.page5-C{
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page5C-text-content{
+    width: 60%;
+    height: 85%;
+    color: #5A5A5A;
+    background-color: #FED233;
+}
+.page5C-box-content{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.page5C-list{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color:  #5A5A5A;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 70%;
+}
+.boxes-parent1{
+    width: 124%;
+    height: 48%;
+    margin-left: -38%;
+    display: flex;
+    gap: 4%;
+}
+.boxes-parent2{
+    width: 124%;
+    height: 48%;
+    margin-left: -38%;
+    display: flex;
+    gap: 4%;
+}
+.page5C-child-boxes{
+    width: 31%;
+    height: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.07);
+}
+
+/* STYLING OF PAGE-6 */
+
+.page6{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.page6-heading{
+    width: 50%;
+    height: 18%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #454545;
+    margin-left: 2%;
+}
+.page6-body-container{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    margin-left: 2%;
+    gap: 5%;
+}
+.page6-body-child1{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+.page6-body-child2{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.body-child1{
+    width: 100%;
+    height: 55%;
+}
+.body-child2{
+    width: 100%;
+    height: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 42px;
+    color: #5A5A5A;
+}
+.body-child3{
+    width: 100%;
+    height: 35%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #5A5A5A;
+}
+#body-child1-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* STYLING OF PAGE-7 */
+
+.page7{
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 3%;
+    gap: 5%;
+}
+
+/* STYLING OF PAGE-8 */
+
+.page8{
+    width: 100vw;
+    height: 150vh;
+    margin-top: 2%;
+}
+.page8-heading{
+    width: 50%;
+    height: 10%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #454545;
+    margin-left: 2%;
+
+}
+.page8-subheading{
+    width: 70%;
+    height: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #5A5A5A;
+    display: flex;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;  
+}
+.page8-body-container{
+    width: 90%;
+    height: 77%;
+    display: flex;
+    align-items: center;
+}
+.page8-child1{
+    width: 60%;
+    height: 90%;
+    background-color: #FED233;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.page8-child2{
+    width: 40%;
+    height: 80%;
+    margin-left: -5%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.07);
+}
+.page8-grandchilds{
+    width: 75%;
+    height: 20%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.number-circle{
+    width: 8%;
+    height: 35%;
+    margin-top: 2%;
+    margin-left: -5%;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.grandchilds-text-box{
+    width: 90%;
+    height: 100%;
+}
+.grandchilds-text-box-heading{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color: #4b4848;
+}
+.grandchilds-text-box-body{
+    width: 100%;
+    height: 70%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #5A5A5A;
+
+}
+.grandchild2-text-box{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    color: #445544;
+}
+.grandchild2-image-box{
+    width: 50%;
+    height: 40%;
+    margin-top: 15%;
+    background-color: #FED233;
+    display: flex;
+    justify-content: center;
+}
+#grandchild2-image{
+    width: 100%;
+    height: 100%;
+}
+.grandchild2-imagediv{
+    width: 100%;
+    height: 120%;
+    margin-top: -18%;
+}
+
+/* END OF THE STYLING OF PAGE-8 */
